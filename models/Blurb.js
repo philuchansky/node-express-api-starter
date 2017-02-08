@@ -5,4 +5,5 @@ const
     body: {type: String}
   }, {timestamps: true})
 
+mongoose.Promise = global.Promise
 module.exports = mongoose.model('Blurb', blurbSchema)
